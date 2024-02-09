@@ -2656,7 +2656,24 @@ input, select, textarea {
 			ul.icons li .icon:before {
 				font-size: 1.25em;
 			}
-
+	.container {
+		display: flex;
+	}
+	
+	.list {
+		flex: 1;
+	}
+	
+	.list ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	
+	.list ul li {
+		display: l;
+		margin-right: 10px; /* Adjust as needed */
+	}
+			
 /* Contact */
 
 	ul.contact {
